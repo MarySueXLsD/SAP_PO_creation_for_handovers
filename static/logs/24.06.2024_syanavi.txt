@@ -1,0 +1,26 @@
+
+***************
+[2024-06-24 09:43:33.264283] - Application launched
+
+***************
+[2024-06-24 09:43:50.394081] - Application launched
+
+[2024-06-24 09:44:06.449028] - ***** ORDER: 12216741 - Hydraulic Crane Services Ltd *****
+[2024-06-24 09:44:06.456044] - Going to IW32 transaction (Initial Screen)
+[2024-06-24 09:44:06.593316] - Pressed Enter
+[2024-06-24 09:44:06.620310] - Order -> 12216741
+[2024-06-24 09:44:06.793321] - Pressed Enter
+
+***************
+[2024-06-24 09:45:20.243073] - Application launched
+
+[2024-06-24 09:45:47.706808] - ***** ORDER: 12216741 - Hydraulic Crane Services Ltd *****
+[2024-06-24 09:45:47.715806] - Going to IW32 transaction (Initial Screen)
+[2024-06-24 09:45:47.861442] - Pressed Enter
+[2024-06-24 09:45:47.895448] - Order -> 12216741
+[2024-06-24 09:45:48.343781] - Pressed Enter
+[2024-06-24 09:45:48.916723] - Going to "Operations" tab
+[2024-06-24 09:45:49.066704] - "Control Key" (5) column is already "SM02", leaving as it is...
+[2024-06-24 09:45:49.345673] - Clicked "External"
+[2024-06-24 09:45:49.416651] - ERROR in transaction IW32 (first): The order has been already processed, proceeding to the next one...
+
