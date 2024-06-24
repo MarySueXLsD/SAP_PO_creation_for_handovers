@@ -1,5 +1,5 @@
-# SAP_PO_creation_for_handovers
-RPA for purchase order creation in SAP to process handover in the system with robot
+# SAP automation: PO creation for handovers
+RPA for purchase order creation in SAP to process handover in the SAP system with robot
 
 **main.py**
 
