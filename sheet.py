@@ -16,7 +16,7 @@ def google_sheet_data(session):
     ]
 
     print("Defined scope")
-    creds = ServiceAccountCredentials.from_json_keyfile_name("static/client_secret_969260230917-8lvqvqoq42uaobpsoqnfkdmc8sdrrbou.apps.googleusercontent.com.json", scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name("static/client_secret_test_googleusercontent.com.json", scope)
     try:
         client = gspread.authorize(creds)
     except Exception as e:
@@ -25,7 +25,7 @@ def google_sheet_data(session):
 
     # Open the desired spreadsheet (by its name in this case)
     try:
-        sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1WPjBycSbDGcd1nTzQ6ZJ8xlTZU3z8uTDIThrCNqnrJU")
+        sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/565656565656IThrCNqnrJU")
     except Exception as e:
         messagebox.showerror('Connection Error', f"Failed to fetch data from Google spreadsheet: {e}")
         return
