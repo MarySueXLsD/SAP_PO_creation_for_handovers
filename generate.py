@@ -7,10 +7,10 @@ print(key)
 cipher_suite = Fernet(key)
 
 # Encrypt the data
-#username = b"TESTROBH101"
-#password = b"TESTROBH101"
-username = b"SVCBISHOPO"
-password = b"tirtvGhRUP6sWu8ATJhu"
+#username = b"TESTROBOT"
+#password = b"TESTROBOT"
+username = b"PRODROBOT"
+password = b"PRODROBOT"
 encrypted_username = cipher_suite.encrypt(username)
 encrypted_password = cipher_suite.encrypt(password)
 
